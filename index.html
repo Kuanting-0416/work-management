@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>work management</title>
+    <title>Work management</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form>
       <fieldset>
         <div class="legend">
-          <legend>work</legend>
+          <legend>Work</legend>
         </div>
         <div>
           <label for="storeName">店名：</label>
@@ -21,13 +21,18 @@
           <input id="installTime" type="date" placeholder="請輸入時間" />
         </div>
         <div>
-          <label for="dataInput">遠端ID：</label>
-          <input id="dataInput" type="text" placeholder="請輸入ID" />
+          <label for="remoteID">遠端ID：</label>
+          <input id="remoteID" type="text" placeholder="請輸入ID" />
         </div>
         <div>
-          <button type="submit">提交</button>
+          <button type="button" id="myButton">送出</button>
+        </div>
+        <div>
+          <h2 for="dataList">剛剛輸入的資料：</h2>
+          <ul id="list1"></ul>
         </div>
       </fieldset>
     </form>
+    <script src="./app.js"></script>
   </body>
 </html>
