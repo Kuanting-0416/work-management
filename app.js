@@ -1,5 +1,5 @@
 // 請將這裡的 "你的 Notion 資料庫 ID" 替換成你自己的資料庫 ID
-const NOTION_DATABASE_ID = "裝機狀態";
+const NOTION_DATABASE_ID = "1b2dc081-fe07-801e-a6b2-000b75517ce1";
 
 let workData = [];
 // 提交工作資料的函數
